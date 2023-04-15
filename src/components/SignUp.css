@@ -1,0 +1,52 @@
+.main {
+  margin: 12%;
+  /* background-color: aqua; */
+}
+
+h1 {
+  text-align: start;
+  margin-left: 3%;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 3%;
+}
+
+input {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+::placeholder {
+  color: white;
+}
+
+.btn {
+  margin-top: 5%;
+  padding: 1% 4%;
+  width: max-content;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  text-align: start;
+}
+
+.success {
+  color: green;
+  font-size: 18px;
+  text-align: start;
+}
